@@ -1,0 +1,20 @@
+.ButtonClick button {
+    height: 50px;
+    width: 200px;
+    background-color: blue;
+    color: aliceblue;
+    font-size: 22px;
+}
+
+.division {
+    height: 100px;
+    width: 300px;
+}
+
+.Red-Div-Tag {
+    background-color: crimson;
+}
+
+.Blue-Div-Tag {
+    background-color: blue;
+}
