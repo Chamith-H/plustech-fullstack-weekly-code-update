@@ -18,7 +18,9 @@ function ChildLive( props ) {
             <input 
               type="text" 
               placeholder="Message to parent"
-              onChange={(event) => getMessage(event)}/>
+              onChange={(event) => getMessage(event)}
+            />
+
         </div>
     )
 }
