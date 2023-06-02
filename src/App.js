@@ -1,24 +1,13 @@
-import { useEffect, useState } from "react";
-import Exception from "./Components/ExceptionHandlings";
-
+import Footer from "./Website/Layout/Footer";
+import Header from "./Website/Layout/Header";
+import Routings from "./Website/Layout/Routings";
 
 function App() {
-
-  // const [changer, setChanger] = useState(0)
-
-  // useEffect(() => {
-  //     console.log("Application loaded")
-  // }, [changer])
-
-  // function handle_Click() {
-  //   setChanger(changer + 1)
-  // }
-  
   return (
     <div className="App">
-        {/* <button onClick={handle_Click}>Click me</button> */}
-
-        <Exception/>
+        <Header/>
+        <Routings/>
+        <Footer/>
     </div>
   );
 }
