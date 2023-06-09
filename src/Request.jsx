@@ -1,5 +1,5 @@
 // import { Axios } from "axios";     ----> Error line previous
-import Axios from "axios";
+import Axios from "axios";  //   ------> Correct form
 import { Component } from "react";
 
 class Request extends Component {
