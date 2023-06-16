@@ -5,9 +5,9 @@ import Routings from "./Website/Layout/Routings";
 function App() {
   return (
     <div className="App">
-        <Header/>
+        {/* <Header/> */}
         <Routings/>
-        <Footer/>
+        {/* <Footer/> */}
     </div>
   );
 }

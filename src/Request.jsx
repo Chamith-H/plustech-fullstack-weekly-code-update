@@ -1,5 +1,6 @@
 // import { Axios } from "axios";     ----> Error line previous
-import Axios from "axios";  //   ------> Correct form
+ //   ------> Correct form
+import Axios from "axios";
 import { Component } from "react";
 
 class Request extends Component {
@@ -10,6 +11,13 @@ class Request extends Component {
         const path = "/posting"
 
         return Axios.post(this.serverURL + route + path, data)
+    }
+
+    get_AllUsers() {
+        const route = "/user"
+        const path = "/allUsers"
+
+        return Axios.get(this.serverURL + route + path)
     }
 
 }
